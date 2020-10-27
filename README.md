@@ -1,1 +1,1 @@
-# 10-2020-cohort-course
+# October 2020 Cohort Course Repo
