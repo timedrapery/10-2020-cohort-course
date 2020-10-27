@@ -34,4 +34,4 @@ Steps.
 1. Create an exitTicket_day2.html file.
 2. Implement the mockup below
 3. stage, commit, and push your changes back up to your repository
-<img src="https://imgur.com/6z6Pj5k" alt="">
+[Imgur](https://i.imgur.com/6z6Pj5k.png)
