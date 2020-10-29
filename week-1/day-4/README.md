@@ -28,7 +28,7 @@ Finished Early?
 Having Trouble?
 
 1. Did you use the `style` attribute within the opening tag for your in-line styles?
-2. Did you <link> your CSS file to your `warm-up.html`?
+2. Did you `<link>` your CSS file to your `warm-up.html`?
 
 ### Learning Objectives
 
