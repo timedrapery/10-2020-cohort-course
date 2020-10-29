@@ -30,6 +30,20 @@ Having Trouble?
 1. Did you use the `style` attribute within the opening tag for your in-line styles?
 2. Did you `<link>` your CSS file to your `warm-up.html`?
 
+#### Reference
+
+https://www.w3schools.com/cssref/func_rgb.asp
+
+https://www.w3schools.com/colors/colors_hexadecimal.asp
+
+https://www.w3schools.com/colors/colors_names.asp
+
+https://www.w3schools.com/cssref/pr_text_text-transform.asp
+
+https://www.w3schools.com/css/css_align.asp
+
+https://www.w3schools.com/cssref/pr_font_font-size.asp
+
 ### Learning Objectives
 
  - Git Hub Pull
