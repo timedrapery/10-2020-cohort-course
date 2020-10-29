@@ -33,15 +33,29 @@ Having Trouble?
 ### Learning Objectives
 
  - Git Hub Pull
-
-
-
+ - Page Layout
+ - CSS Box Model
+ - Selectors
  - Git Hub Push & Pull Request
 
 ### Retrospective
 
 ### Assignment
 
-### Blended Learning
+You are going to do all of your work in `assignment.html & assignment.css`
 
- - Flex Box
+Take a look at the brochure image file in this directory!
+
+You are going to recreate the image by using everything we learned this week.
+
+This does not need to be pixel perfect! We are leaving it up to your creativity.
+
+We are looking the use of :
+
+- the page layout with `tbody`, `tr`, and `td`
+- the formatting of context/text using CSS
+- borders!
+
+Bonus: Add a music player!
+
+To receive credit for this assignment, please submit a pull request **NO LATER THAN MONDAY 12:00 PM PST**
