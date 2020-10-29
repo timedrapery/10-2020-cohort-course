@@ -1,4 +1,4 @@
-# Vets In Tech Web Development Course 
+# Vets In Tech Web Development Course
 
 ## Week 1 Day 4
 
@@ -46,11 +46,11 @@ https://www.w3schools.com/cssref/pr_font_font-size.asp
 
 ### Learning Objectives
 
- - Git Hub Pull
- - Page Layout
- - CSS Box Model
- - Selectors
- - Git Hub Push & Pull Request
+- Git Hub Pull
+- Page Layout
+- CSS Box Model
+- Selectors
+- Git Hub Push & Pull Request
 
 ### Retrospective
 
@@ -66,8 +66,8 @@ This does not need to be pixel perfect! We are leaving it up to your creativity.
 
 We are looking the use of :
 
-- the page layout with `tbody`, `tr`, and `td`
 - the formatting of context/text using CSS
+- the page layout
 - borders!
 
 Bonus: Add a music player!
