@@ -1,0 +1,44 @@
+/* CSS: 
+It follows a specific format when connected 
+The rules consist of a property and a value
+The browser takes in the html and reads from top to bottom 
+*/
+
+/* PROPERTIES: VALUES */
+
+/* Types of Selectors: 
+html element 
+id (#) 
+class (.) 
+
+Colors: 
+RGB Values = rgb(45, 164, 200); 
+Hex Codes = #FFFF; 
+
+"color" = font color 
+"background-color" = element */ 
+
+body { 
+  background-color: #FFFF; 
+  font-size: 20px; 
+  font-style: italic; 
+  line-height: 22px; 
+} 
+
+h1 { 
+text-align: center; 
+text-transform: capitalize; 
+text-decoration: underline; 
+line-height: 22px; 
+} 
+
+span { 
+  color: blue; 
+  font-size: 20px; 
+  font-style: italic; 
+  line-height: 22px; 
+} 
+
+p { 
+  color: purple; 
+} 

@@ -20,5 +20,5 @@
   - Box Model
 
 ### Exit Ticket
-  
+
 - Socrative

@@ -1,0 +1,30 @@
+.blackborder { 
+    border: solid 1px black; 
+} 
+body { 
+    background-color: powderblue; 
+} 
+div { 
+    background-color: white; 
+    border: 1px solid black; 
+    height: 100px; 
+    margin: 10px; 
+    width: 100px; 
+} 
+h1 { 
+    color: blue; 
+} 
+h2 { 
+    background-color: white; 
+} 
+.headerDiv {
+    font-size: 45px; 
+    text-transform: uppercase; 
+    margin: 10px; 
+} 
+.pinkBorder {
+    border: solid 10px pink;
+} 
+p { 
+    color: red; 
+} 
