@@ -9,6 +9,18 @@
   clear: both; 
 } 
 
+.column { 
+  float: left; 
+} 
+
+.left, .right { 
+  width: 25%; 
+} 
+
+.middle { 
+  width: 50%; 
+} 
+
 /* .container { 
   width: 11in; 
   padding: 0; 
