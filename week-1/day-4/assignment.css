@@ -1,4 +1,33 @@
-.blackborder { 
+   .container { 
+  width: 11in; 
+  padding: 0; 
+  margin: 0; 
+} 
+.row { 
+  height: 8.5in; 
+  display: inline-flex; 
+  padding: 0; 
+  margin: 0; 
+  overflow-y: hidden; 
+  max-height: 8.5in; 
+  width: 100%; 
+} 
+.cell { 
+  display: inline-block; 
+  padding: 20px; 
+  width: 33.33%; 
+} 
+.blue { 
+  background-color: blue; 
+} 
+.red { 
+  background-color: red; 
+} 
+.tall { 
+  height: 900px; 
+} 
+
+/*.blackborder { 
     border: solid 1px black; 
 } 
 body { 
@@ -27,4 +56,4 @@ h2 {
 } 
 p { 
     color: red; 
-} 
+} */
