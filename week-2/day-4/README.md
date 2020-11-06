@@ -79,3 +79,17 @@ For a challenge, try implementing any or all of the bullets below
 - Add some conditional logic to your javascript code to prevent users from translating the imageSlider too far in either direction
 - Add console logs to see what your current position is any time the prevImage or nextImage functions are invoked
 - Automate your js carousel with setTimeout, and make it move forwards then backwards once it renders the last image on the screen (see video)
+
+<!-- 
+
+Heuristic for creating a carousel. You still will need to do more to animate and use js for the homework assignment. 
+
+    1. create div for window 
+    2. create div for imageslider 
+    3. add images of the similar sizes 
+    4. normalize the image sizes to be the same  
+    5. set the width and height of the window 
+    6. use overflow hidden on the window 
+    7. use transform translate on the image slider to move the images to the left or right 
+
+--> 

@@ -1,26 +1,5 @@
-* { 
-    box-sizing: border-box; 
-} 
 .column { 
-    float: left; 
-    width: 33.33%; 
-    padding: 10px; 
-    height: 300px; 
-} 
-.row:after { 
-    content: ""; 
-    display: table; 
-    clear: both; 
-} 
-.h1, h2, h3, h4, h5, h6 {
-    color:darkblue; 
-} 
-#page { 
-    background:#eee; 
-} 
-#header, #footer, #top-nav, #content, #content #contentbar, #content #sidebar { 
-    margin:0; padding:0; 
-} 
-.clr { 
-    clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px; 
+    display: inline-block; 
+    width: 33%; 
+    min-height: 80vh; 
 } 
