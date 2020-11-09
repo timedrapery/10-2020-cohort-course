@@ -9,4 +9,12 @@
 - MVP
 - Mini App III - To Do App
 
-### Exit Ticket
+### Retrospective
+
+### Assignment
+
+Final Project Deliverables:
+
+- Mock Up
+- MVP
+- Breakdown

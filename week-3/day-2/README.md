@@ -8,13 +8,10 @@
 
 ### Learning Objectives
 
+- Event Handlers
 - Mock Up Part I. (Reverse Engineering)
-- Mini App I - Image Build (Pair Program)
-  - 2 Deliverables
-    - Mock Up
-    - Code
 - Mock Up Part II. (Architecture)
-- Mini App II. - Calculator
+- Mini App I. - Calculator
   - 2 Deliverables
     - Mock Up
     - Code
