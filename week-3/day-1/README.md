@@ -17,6 +17,5 @@
   - Arrays
   - Objects
 - Query Selectors [15 minutes]
-- Intro to Event Handlers [15 minutes]
 
 ### Exit Ticket [Socratives]
