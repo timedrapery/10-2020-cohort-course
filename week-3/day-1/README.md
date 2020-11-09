@@ -4,16 +4,19 @@
 
 ### Assignment Review [15 minutes]
 
-- Breakdown*
+- Breakdown
+  - Features by CSS or JS
+- `<script>` file
+- `console.log`
 
 ### Learning Objectives
 
-- Data Types (Conditions) [15 minutes]
-- If/Else [10 minutes]
-- Array & Objects [30 minutes]
-- Query Selectors [30 minutes]
-- Event Handlers [25 minutes]
-
-### Reference
+- Data Types Part I [30 minutes]
+  - Assignments, Operators, & Comparisons
+- Data Types Part II [30 minutes]
+  - Arrays
+  - Objects
+- Query Selectors [15 minutes]
+- Intro to Event Handlers [15 minutes]
 
 ### Exit Ticket [Socratives]

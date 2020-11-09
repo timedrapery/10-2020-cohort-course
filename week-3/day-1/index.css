@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Big Shoulders Inline Text", cursive;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textAlign {
+  text-align: center;
+}
+
+#splashButton {
+  background-color: black;
+  border-radius: 10px;
+  border: 4px double white;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Big Shoulders Inline Text", cursive;
+  padding: 20px;
+  width: 200px;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  transition: all 0.1s;
+  cursor: pointer;
+  margin: 50px;
+}
+
+#splashPage {
+  position: absolute;
+  width: 100%;
+}
+
+#tableOfContent {
+  visibility: hidden;
+  padding: 100px;
+}
