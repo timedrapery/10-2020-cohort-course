@@ -13,9 +13,10 @@
 - Event Handlers
 - Mini App I. - Calculator
 - Mock Up Part II. (Design and Create To Do List)
+- [Mock Up To Do List](https://docs.google.com/presentation/d/17txojg9YklXNpYETmTjd74uhzgNeeGf01A0w2rzb9cg/edit?usp=sharing)
   - 2 Deliverables
     - Mock Up
     - Code
 
 ### Exit Ticket
- none today
+ Deliverables
