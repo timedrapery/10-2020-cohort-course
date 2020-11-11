@@ -1,0 +1,25 @@
+#imageslider {
+    display: flex;
+}
+
+#window {
+    overflow: hidden;
+    width: 500px;
+    height: 400px;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+}
+
+#jsCarousel {
+    overflow: hidden;
+}
+
+#slider {
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}

@@ -22,3 +22,12 @@ html {
 .columnbody {
     text-align: left;
 }
+
+/*
+.container {
+    display: grid;
+    grid-gap: 3px;
+    grid-template-column: repeat(12, 1fr);
+    grid-template-rows: 40px auto 40px;
+}
+*/
