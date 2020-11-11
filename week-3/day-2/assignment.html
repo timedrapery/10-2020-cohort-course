@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Type Pt. 1 | ViT Web Dev</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text&family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="stack" id="main">
+      <div><h1>DOM Events</h1></div>
+      <div>
+        <div>
+          <h3>Mouse Events</h3>
+          <h4>
+            We're going to cover the most frequently used mouse events for final projects
+          </h4>
+          <table class="offset">
+            <thead>
+              <tr>
+                <th>Event Name</th>
+                <th>Code Example</th>
+                <th>Fired When</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>click</td>
+                <td>
+                  &lt;button onclick="buttonClick()"&gt;Click me&lt;/button&gt;
+                </td>
+                <td>Fires on a mouse click on the element</td>
+                
+              </tr>
+              <tr>
+                <td>dblclick</td>
+                <td>&lt;button ondblclick="doublebuttonClick()"&gt;Double click me &lt;/button&gt;</td>
+                <td>Fires on a mouse double-click on the element</td>
+                
+              </tr>
+              <tr>
+                <td>mouseover</td>
+                <td>&lt;button mouseover="mouseOverEvent()"&gt;hover me&lt;/button&gt;</td>
+                <td>Fires when the mouse pointer moves over an element</td>
+              </tr>
+              <tr>
+                <td>mouseout</td>
+                <td>&lt;button mouseover="mouseOverEvent()"&gt;hover and leave&lt;/button&gt;</td>
+                <td>Fires when the mouse pointer moves out of an element</td>
+              </tr>
+              <tr>
+                <td>drag</td>
+                <td><a href="https://www.w3schools.com/howto/howto_js_draggable.asp"> w3schools Example</a></td>
+                <td>Script to be run when an element is dragged</td>
+              </tr>
+            </tbody>
+          </table>
+          <h1>Mouse event examples</h1>
+          <p>Examples that you can see in the console</p>
+          <hr>
+          <button onclick="buttonClick()">Click me</button>
+          <button ondblclick="doubleButtonClick()">double Click me</button>
+          <button onmouseover="onmouseoverEvent(this)" onmouseout="onmouseupEvent(this)">on mouse over</button>
+          <hr>
+      
+        </div>
+        <div>
+          <h3>keyboard Events</h3>
+          <table class="offset">
+            <thead>
+              <tr>
+                <th>Event Name</th>
+                <th>Fired When</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>keydown</td>
+                <td>	Fires when a user is pressing a key</td>
+              </tr>
+              <tr>
+                <td>keypress (hold)</td>
+                <td>Fires when a user presses a key</td>
+              </tr>
+              <tr>
+                <td>keyup</td>
+                <td>Fires when a user releases a key</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h1>Keyboard Event Examples</h1>
+          <p>Examples that you can see in the console</p>
+          <hr>
+          <label for="">Enter a key</label>
+          <input type="text" onkeydown="myKeysPressed()" onkeyup="myKeyReleased()">
+          <div onclick="giveFocus(this)" onkeypress="blastAway()" tabindex="0">
+            click me then hold a
+          </div>
+          <hr>
+      
+        </div>
+        <div>
+          <h3>Clip board Events</h3>
+          <table class="offset">
+            <thead>
+              <tr>
+                <th>Event </th>
+                <th>Fired When</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>oncopy</td>
+                <td>Fires when the user copies the content of an element</td>
+              </tr>
+              <tr>
+                <td>oncut</td>
+                <td>8 == 8</td>
+              </tr>
+              <tr>
+                <td>paste</td>
+                <td>5 == 8</td>
+              </tr>
+            </tbody>
+          </table>
+          <h3>Clipboard Events</h3>
+          <table class="offset">
+            <thead>
+              <tr>
+                <th>Event Name</th>
+                <th>Fired When</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>copy</td>
+                <td>Fires when the user cuts the content of an element</td>
+              </tr>
+              <tr>
+                <td>paste</td>
+                <td>Fires when the user pastes some content in an element</td>
+              </tr>
+            </tbody>
+          </table>
+        
+          <h3>Official Resource</h3>
+          <a href="https://www.w3schools.com/tags/ref_eventattributes.asp">DOM Event Documentation</a>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div></div>
+      <div class="textAlign">
+        <button onclick="window.location.href='./index.html'">Home</button>
+      </div>
+      <div></div>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+  </body>
+</html>
