@@ -3,17 +3,19 @@
 ## Week 3 Day 2
 
 ### Warm Up
+- [Mock Up design](https://docs.google.com/presentation/d/1CDXr6jWKhIyvlCjpWFu_5Ttqw0lEKISCk9rH7ljNQbE/edit?usp=sharing)
 
 #### Reference
 
 ### Learning Objectives
 
-- Event Handlers
 - Mock Up Part I. (Reverse Engineering)
-- Mock Up Part II. (Architecture)
+- Event Handlers
 - Mini App I. - Calculator
+- Mock Up Part II. (Design and Create To Do List)
   - 2 Deliverables
     - Mock Up
     - Code
 
 ### Exit Ticket
+ none today
