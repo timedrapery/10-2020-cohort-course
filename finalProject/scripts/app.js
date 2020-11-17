@@ -6,13 +6,13 @@ let selectElement = document.getElementById('date');
 selectElement.innerHTML = formatDate;
 
 var addButton = document.getElementById("add-button");
-addButton.addEventListener("click", addToDoItem);
-function addToDoItem() {
+addButton.addEventListener("click", addAssignmentItem);
+function addAssignmentItem() {
     alert("Add button clicked!");
 }
 
 var clearButton = document.getElementById("clear-completed-button");
-clearButton.addEventListener("click", clearCompletedToDoItems);
+clearButton.addEventListener("click", clearCompletedAssignmentItems);
 function clearCompletedToDoItems() {
     alert("Clear button clicked!");
 }
@@ -29,28 +29,28 @@ function saveList() {
     alert("Save button clicked!");
 }
 
-var toDoEntryBox = document.getElementById("todo-entry-box");
-var toDoList = document.getElementById("todo-list");
+var assignmentEntryBox = document.getElementById("assignment-entry-box");
+var assignmentList = document.getElementById("assignment-list");
 
-function newToDoItem(itemText, completed) {
-    var toDoItem = document.createElement("li");
-    var toDoText = document.createTextNode(itemText);
-    toDoItem.appendChild(toDoText);
+function newAssignmentItem(itemText, completed) {
+    var assignmentItem = document.createElement("li");
+    var assignmentText = document.createTextNode(assignmentText);
+    assignmentItem.appendChild(assignmentText);
 
     if (completed) {
-        toDoItem.classList.add("completed");
+        assignmentItem.classList.add("completed");
     }
 
-    toDoList.appendChild(toDoItem);
-    toDoItem.addEventListener("dblclick", toggleToDoItemState);
+    assignmentList.appendChild(assignmentItem);
+    assignmentItem.addEventListener("dblclick", toggleAssignmentItemState);
 }
 
-function addToDoItem() {
-    var itemText = toDoEntryBox.value;
-    newToDoItem(itemText, false);
+function addAssignmentItem() {
+    var itemText = assignmentEntryBox.value;
+    newAssignmentItem(itemText, false);
 }
 
-function toggleToDoItemState() {
+function toggleAssignmentItemState() {
     if (this.classList.contains("completed")) {
         this.classList.remove("completed");
     } else {
@@ -58,17 +58,17 @@ function toggleToDoItemState() {
     }
 }
 
-function clearCompletedToDoItems() {
-    var completedItems = toDoList.getElementsByClassName("completed");
+function clearCompletedAssignmentItems() {
+    var completedItems = assignmentList.getElementsByClassName("completed");
     while (completedItems.length > 0) {
         completedItems.item(0).remove();
     }
 }
 
 function emptyList() {
-    var toDoItems = toDoList.children;
-    while (toDoItems.length > 0) {
-        toDoItems.item(0).remove();
+    var assignmentItems = assignmentList.children;
+    while (assignmentItems.length > 0) {
+        assignmentItems.item(0).remove();
     }
 }
 
@@ -84,24 +84,24 @@ var toDoInfo = {
 
 function saveList() {
     var toDos = [];
-    for (var i = 0; i < toDoList.children.length; i++) {
-        var toDo = toDoList.children.item(i);
-        var toDoInfo = {
-            task: toDo.innerText,
-            completed: toDo.classList.contains("completed")
+    for (var i = 0; i < assignmentList.children.length; i++) {
+        var assignment = assignmentList.children.item(i);
+        var assignmentInfo = {
+            task: assignment.innerText,
+            completed: assignment.classList.contains("completed")
         };
-        toDos.push(toDoInfo);
+        assignments.push(assignmentInfo);
     }
 
-    localStorage.setItem("toDos", JSON.stringify(toDos));
+    localStorage.setItem("assignments", JSON.stringify(assignments));
 }
 
 function loadList() {
-    if (localStorage.getItem("toDos") !== null) {
-        var toDos = JSON.parse(localStorage.getItem("toDos"));
-        for (var i = 0; i < toDos.length; i++) {
-            var toDo = toDos[i];
-            newToDoItem(toDo.task, toDo.completed);
+    if (localStorage.getItem("assignments") !== null) {
+        var assignments = JSON.parse(localStorage.getItem("assignments"));
+        for (var i = 0; i < assignments.length; i++) {
+            var assignment = assignments[i];
+            newAssignmentItem(assignment.task, assignment.completed);
             loadList();
         }
     }
